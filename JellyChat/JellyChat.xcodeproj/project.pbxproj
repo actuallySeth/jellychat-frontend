@@ -7,46 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC150BA01AF58CF80080A66D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC150B9F1AF58CF80080A66D /* AppDelegate.swift */; };
-		DC150BA21AF58CF80080A66D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC150BA11AF58CF80080A66D /* ViewController.swift */; };
-		DC150BA51AF58CF80080A66D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC150BA31AF58CF80080A66D /* Main.storyboard */; };
-		DC150BA71AF58CF80080A66D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC150BA61AF58CF80080A66D /* Images.xcassets */; };
-		DC150BAA1AF58CF80080A66D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC150BA81AF58CF80080A66D /* LaunchScreen.xib */; };
-		DC150BB61AF58CF80080A66D /* JellyChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC150BB51AF58CF80080A66D /* JellyChatTests.swift */; };
+		DC16D1331AF5921300C89506 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC16D1321AF5921300C89506 /* AppDelegate.swift */; };
+		DC16D1351AF5921300C89506 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC16D1341AF5921300C89506 /* FirstViewController.swift */; };
+		DC16D1371AF5921300C89506 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC16D1361AF5921300C89506 /* SecondViewController.swift */; };
+		DC16D13A1AF5921300C89506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC16D1381AF5921300C89506 /* Main.storyboard */; };
+		DC16D13C1AF5921300C89506 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC16D13B1AF5921300C89506 /* Images.xcassets */; };
+		DC16D13F1AF5921400C89506 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC16D13D1AF5921400C89506 /* LaunchScreen.xib */; };
+		DC16D14B1AF5921400C89506 /* JellyChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC16D14A1AF5921400C89506 /* JellyChatTests.swift */; };
+		DC16D1591AF5943A00C89506 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = DC16D1581AF5943A00C89506 /* Assets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DC150BB01AF58CF80080A66D /* PBXContainerItemProxy */ = {
+		DC16D1451AF5921400C89506 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DC150B921AF58CF80080A66D /* Project object */;
+			containerPortal = DC16D1251AF5921300C89506 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DC150B991AF58CF80080A66D;
+			remoteGlobalIDString = DC16D12C1AF5921300C89506;
 			remoteInfo = JellyChat;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DC150B9A1AF58CF80080A66D /* JellyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JellyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC150B9E1AF58CF80080A66D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC150B9F1AF58CF80080A66D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC150BA11AF58CF80080A66D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DC150BA41AF58CF80080A66D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DC150BA61AF58CF80080A66D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DC150BA91AF58CF80080A66D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		DC150BAF1AF58CF80080A66D /* JellyChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JellyChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC150BB41AF58CF80080A66D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC150BB51AF58CF80080A66D /* JellyChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JellyChatTests.swift; sourceTree = "<group>"; };
+		DC16D12D1AF5921300C89506 /* JellyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JellyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC16D1311AF5921300C89506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC16D1321AF5921300C89506 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC16D1341AF5921300C89506 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DC16D1361AF5921300C89506 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DC16D1391AF5921300C89506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC16D13B1AF5921300C89506 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC16D13E1AF5921400C89506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DC16D1441AF5921400C89506 /* JellyChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JellyChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC16D1491AF5921400C89506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC16D14A1AF5921400C89506 /* JellyChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JellyChatTests.swift; sourceTree = "<group>"; };
+		DC16D1581AF5943A00C89506 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DC150B971AF58CF80080A66D /* Frameworks */ = {
+		DC16D12A1AF5921300C89506 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC150BAC1AF58CF80080A66D /* Frameworks */ = {
+		DC16D1411AF5921400C89506 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,58 +60,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DC150B911AF58CF80080A66D = {
+		DC16D1241AF5921300C89506 = {
 			isa = PBXGroup;
 			children = (
-				DC150B9C1AF58CF80080A66D /* JellyChat */,
-				DC150BB21AF58CF80080A66D /* JellyChatTests */,
-				DC150B9B1AF58CF80080A66D /* Products */,
+				DC16D1581AF5943A00C89506 /* Assets */,
+				DC16D12F1AF5921300C89506 /* JellyChat */,
+				DC16D1471AF5921400C89506 /* JellyChatTests */,
+				DC16D12E1AF5921300C89506 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DC150B9B1AF58CF80080A66D /* Products */ = {
+		DC16D12E1AF5921300C89506 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC150B9A1AF58CF80080A66D /* JellyChat.app */,
-				DC150BAF1AF58CF80080A66D /* JellyChatTests.xctest */,
+				DC16D12D1AF5921300C89506 /* JellyChat.app */,
+				DC16D1441AF5921400C89506 /* JellyChatTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DC150B9C1AF58CF80080A66D /* JellyChat */ = {
+		DC16D12F1AF5921300C89506 /* JellyChat */ = {
 			isa = PBXGroup;
 			children = (
-				DC150B9F1AF58CF80080A66D /* AppDelegate.swift */,
-				DC150BA11AF58CF80080A66D /* ViewController.swift */,
-				DC150BA31AF58CF80080A66D /* Main.storyboard */,
-				DC150BA61AF58CF80080A66D /* Images.xcassets */,
-				DC150BA81AF58CF80080A66D /* LaunchScreen.xib */,
-				DC150B9D1AF58CF80080A66D /* Supporting Files */,
+				DC16D1321AF5921300C89506 /* AppDelegate.swift */,
+				DC16D1341AF5921300C89506 /* FirstViewController.swift */,
+				DC16D1361AF5921300C89506 /* SecondViewController.swift */,
+				DC16D1381AF5921300C89506 /* Main.storyboard */,
+				DC16D13B1AF5921300C89506 /* Images.xcassets */,
+				DC16D13D1AF5921400C89506 /* LaunchScreen.xib */,
+				DC16D1301AF5921300C89506 /* Supporting Files */,
 			);
 			path = JellyChat;
 			sourceTree = "<group>";
 		};
-		DC150B9D1AF58CF80080A66D /* Supporting Files */ = {
+		DC16D1301AF5921300C89506 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DC150B9E1AF58CF80080A66D /* Info.plist */,
+				DC16D1311AF5921300C89506 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DC150BB21AF58CF80080A66D /* JellyChatTests */ = {
+		DC16D1471AF5921400C89506 /* JellyChatTests */ = {
 			isa = PBXGroup;
 			children = (
-				DC150BB51AF58CF80080A66D /* JellyChatTests.swift */,
-				DC150BB31AF58CF80080A66D /* Supporting Files */,
+				DC16D14A1AF5921400C89506 /* JellyChatTests.swift */,
+				DC16D1481AF5921400C89506 /* Supporting Files */,
 			);
 			path = JellyChatTests;
 			sourceTree = "<group>";
 		};
-		DC150BB31AF58CF80080A66D /* Supporting Files */ = {
+		DC16D1481AF5921400C89506 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DC150BB41AF58CF80080A66D /* Info.plist */,
+				DC16D1491AF5921400C89506 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -115,13 +121,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DC150B991AF58CF80080A66D /* JellyChat */ = {
+		DC16D12C1AF5921300C89506 /* JellyChat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC150BB91AF58CF80080A66D /* Build configuration list for PBXNativeTarget "JellyChat" */;
+			buildConfigurationList = DC16D14E1AF5921400C89506 /* Build configuration list for PBXNativeTarget "JellyChat" */;
 			buildPhases = (
-				DC150B961AF58CF80080A66D /* Sources */,
-				DC150B971AF58CF80080A66D /* Frameworks */,
-				DC150B981AF58CF80080A66D /* Resources */,
+				DC16D1291AF5921300C89506 /* Sources */,
+				DC16D12A1AF5921300C89506 /* Frameworks */,
+				DC16D12B1AF5921300C89506 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -129,46 +135,46 @@
 			);
 			name = JellyChat;
 			productName = JellyChat;
-			productReference = DC150B9A1AF58CF80080A66D /* JellyChat.app */;
+			productReference = DC16D12D1AF5921300C89506 /* JellyChat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DC150BAE1AF58CF80080A66D /* JellyChatTests */ = {
+		DC16D1431AF5921400C89506 /* JellyChatTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC150BBC1AF58CF80080A66D /* Build configuration list for PBXNativeTarget "JellyChatTests" */;
+			buildConfigurationList = DC16D1511AF5921400C89506 /* Build configuration list for PBXNativeTarget "JellyChatTests" */;
 			buildPhases = (
-				DC150BAB1AF58CF80080A66D /* Sources */,
-				DC150BAC1AF58CF80080A66D /* Frameworks */,
-				DC150BAD1AF58CF80080A66D /* Resources */,
+				DC16D1401AF5921400C89506 /* Sources */,
+				DC16D1411AF5921400C89506 /* Frameworks */,
+				DC16D1421AF5921400C89506 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DC150BB11AF58CF80080A66D /* PBXTargetDependency */,
+				DC16D1461AF5921400C89506 /* PBXTargetDependency */,
 			);
 			name = JellyChatTests;
 			productName = JellyChatTests;
-			productReference = DC150BAF1AF58CF80080A66D /* JellyChatTests.xctest */;
+			productReference = DC16D1441AF5921400C89506 /* JellyChatTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DC150B921AF58CF80080A66D /* Project object */ = {
+		DC16D1251AF5921300C89506 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Arjun Sethi";
 				TargetAttributes = {
-					DC150B991AF58CF80080A66D = {
+					DC16D12C1AF5921300C89506 = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
-					DC150BAE1AF58CF80080A66D = {
+					DC16D1431AF5921400C89506 = {
 						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = DC150B991AF58CF80080A66D;
+						TestTargetID = DC16D12C1AF5921300C89506;
 					};
 				};
 			};
-			buildConfigurationList = DC150B951AF58CF80080A66D /* Build configuration list for PBXProject "JellyChat" */;
+			buildConfigurationList = DC16D1281AF5921300C89506 /* Build configuration list for PBXProject "JellyChat" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -176,29 +182,30 @@
 				en,
 				Base,
 			);
-			mainGroup = DC150B911AF58CF80080A66D;
-			productRefGroup = DC150B9B1AF58CF80080A66D /* Products */;
+			mainGroup = DC16D1241AF5921300C89506;
+			productRefGroup = DC16D12E1AF5921300C89506 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC150B991AF58CF80080A66D /* JellyChat */,
-				DC150BAE1AF58CF80080A66D /* JellyChatTests */,
+				DC16D12C1AF5921300C89506 /* JellyChat */,
+				DC16D1431AF5921400C89506 /* JellyChatTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DC150B981AF58CF80080A66D /* Resources */ = {
+		DC16D12B1AF5921300C89506 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC150BA51AF58CF80080A66D /* Main.storyboard in Resources */,
-				DC150BAA1AF58CF80080A66D /* LaunchScreen.xib in Resources */,
-				DC150BA71AF58CF80080A66D /* Images.xcassets in Resources */,
+				DC16D13A1AF5921300C89506 /* Main.storyboard in Resources */,
+				DC16D1591AF5943A00C89506 /* Assets in Resources */,
+				DC16D13F1AF5921400C89506 /* LaunchScreen.xib in Resources */,
+				DC16D13C1AF5921300C89506 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC150BAD1AF58CF80080A66D /* Resources */ = {
+		DC16D1421AF5921400C89506 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -208,46 +215,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DC150B961AF58CF80080A66D /* Sources */ = {
+		DC16D1291AF5921300C89506 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC150BA21AF58CF80080A66D /* ViewController.swift in Sources */,
-				DC150BA01AF58CF80080A66D /* AppDelegate.swift in Sources */,
+				DC16D1371AF5921300C89506 /* SecondViewController.swift in Sources */,
+				DC16D1331AF5921300C89506 /* AppDelegate.swift in Sources */,
+				DC16D1351AF5921300C89506 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC150BAB1AF58CF80080A66D /* Sources */ = {
+		DC16D1401AF5921400C89506 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC150BB61AF58CF80080A66D /* JellyChatTests.swift in Sources */,
+				DC16D14B1AF5921400C89506 /* JellyChatTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DC150BB11AF58CF80080A66D /* PBXTargetDependency */ = {
+		DC16D1461AF5921400C89506 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DC150B991AF58CF80080A66D /* JellyChat */;
-			targetProxy = DC150BB01AF58CF80080A66D /* PBXContainerItemProxy */;
+			target = DC16D12C1AF5921300C89506 /* JellyChat */;
+			targetProxy = DC16D1451AF5921400C89506 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DC150BA31AF58CF80080A66D /* Main.storyboard */ = {
+		DC16D1381AF5921300C89506 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DC150BA41AF58CF80080A66D /* Base */,
+				DC16D1391AF5921300C89506 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DC150BA81AF58CF80080A66D /* LaunchScreen.xib */ = {
+		DC16D13D1AF5921400C89506 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DC150BA91AF58CF80080A66D /* Base */,
+				DC16D13E1AF5921400C89506 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -255,7 +263,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DC150BB71AF58CF80080A66D /* Debug */ = {
+		DC16D14C1AF5921400C89506 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -299,7 +307,7 @@
 			};
 			name = Debug;
 		};
-		DC150BB81AF58CF80080A66D /* Release */ = {
+		DC16D14D1AF5921400C89506 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -336,7 +344,7 @@
 			};
 			name = Release;
 		};
-		DC150BBA1AF58CF80080A66D /* Debug */ = {
+		DC16D14F1AF5921400C89506 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -346,7 +354,7 @@
 			};
 			name = Debug;
 		};
-		DC150BBB1AF58CF80080A66D /* Release */ = {
+		DC16D1501AF5921400C89506 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -356,7 +364,7 @@
 			};
 			name = Release;
 		};
-		DC150BBD1AF58CF80080A66D /* Debug */ = {
+		DC16D1521AF5921400C89506 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -375,7 +383,7 @@
 			};
 			name = Debug;
 		};
-		DC150BBE1AF58CF80080A66D /* Release */ = {
+		DC16D1531AF5921400C89506 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -393,32 +401,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DC150B951AF58CF80080A66D /* Build configuration list for PBXProject "JellyChat" */ = {
+		DC16D1281AF5921300C89506 /* Build configuration list for PBXProject "JellyChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC150BB71AF58CF80080A66D /* Debug */,
-				DC150BB81AF58CF80080A66D /* Release */,
+				DC16D14C1AF5921400C89506 /* Debug */,
+				DC16D14D1AF5921400C89506 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC150BB91AF58CF80080A66D /* Build configuration list for PBXNativeTarget "JellyChat" */ = {
+		DC16D14E1AF5921400C89506 /* Build configuration list for PBXNativeTarget "JellyChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC150BBA1AF58CF80080A66D /* Debug */,
-				DC150BBB1AF58CF80080A66D /* Release */,
+				DC16D14F1AF5921400C89506 /* Debug */,
+				DC16D1501AF5921400C89506 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		DC150BBC1AF58CF80080A66D /* Build configuration list for PBXNativeTarget "JellyChatTests" */ = {
+		DC16D1511AF5921400C89506 /* Build configuration list for PBXNativeTarget "JellyChatTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC150BBD1AF58CF80080A66D /* Debug */,
-				DC150BBE1AF58CF80080A66D /* Release */,
+				DC16D1521AF5921400C89506 /* Debug */,
+				DC16D1531AF5921400C89506 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DC150B921AF58CF80080A66D /* Project object */;
+	rootObject = DC16D1251AF5921300C89506 /* Project object */;
 }
