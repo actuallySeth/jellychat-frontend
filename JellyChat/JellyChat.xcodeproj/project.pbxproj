@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		984B1F9C1AF5A8B80096EBA6 /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984B1F9B1AF5A8B80096EBA6 /* loginView.swift */; };
+		984B1F9E1AF5AB900096EBA6 /* signupVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984B1F9D1AF5AB900096EBA6 /* signupVIew.swift */; };
+		984B1FD01AF5B9D70096EBA6 /* chatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984B1FCF1AF5B9D70096EBA6 /* chatView.swift */; };
 		DC16D1331AF5921300C89506 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC16D1321AF5921300C89506 /* AppDelegate.swift */; };
 		DC16D1351AF5921300C89506 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC16D1341AF5921300C89506 /* FirstViewController.swift */; };
 		DC16D1371AF5921300C89506 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC16D1361AF5921300C89506 /* SecondViewController.swift */; };
@@ -28,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		984B1F9B1AF5A8B80096EBA6 /* loginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginView.swift; sourceTree = "<group>"; };
+		984B1F9D1AF5AB900096EBA6 /* signupVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signupVIew.swift; sourceTree = "<group>"; };
+		984B1FCF1AF5B9D70096EBA6 /* chatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chatView.swift; sourceTree = "<group>"; };
 		DC16D12D1AF5921300C89506 /* JellyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JellyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC16D1311AF5921300C89506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC16D1321AF5921300C89506 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,7 +91,10 @@
 				DC16D1321AF5921300C89506 /* AppDelegate.swift */,
 				DC16D1341AF5921300C89506 /* FirstViewController.swift */,
 				DC16D1361AF5921300C89506 /* SecondViewController.swift */,
+				984B1F9B1AF5A8B80096EBA6 /* loginView.swift */,
 				DC16D1381AF5921300C89506 /* Main.storyboard */,
+				984B1FCF1AF5B9D70096EBA6 /* chatView.swift */,
+				984B1F9D1AF5AB900096EBA6 /* signupVIew.swift */,
 				DC16D13B1AF5921300C89506 /* Images.xcassets */,
 				DC16D13D1AF5921400C89506 /* LaunchScreen.xib */,
 				DC16D1301AF5921300C89506 /* Supporting Files */,
@@ -219,8 +228,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				984B1FD01AF5B9D70096EBA6 /* chatView.swift in Sources */,
 				DC16D1371AF5921300C89506 /* SecondViewController.swift in Sources */,
 				DC16D1331AF5921300C89506 /* AppDelegate.swift in Sources */,
+				984B1F9C1AF5A8B80096EBA6 /* loginView.swift in Sources */,
+				984B1F9E1AF5AB900096EBA6 /* signupVIew.swift in Sources */,
 				DC16D1351AF5921300C89506 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +429,7 @@
 				DC16D1501AF5921400C89506 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC16D1511AF5921400C89506 /* Build configuration list for PBXNativeTarget "JellyChatTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +438,7 @@
 				DC16D1531AF5921400C89506 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
