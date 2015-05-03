@@ -20,7 +20,6 @@ window.onload = function() {
     });
 
     $("#Send-Chat").click(function() {
-      console.log(chat-textarea);
-
+       console.log($(".chat-textarea").val())
     });
 }
