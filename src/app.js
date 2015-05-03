@@ -6,5 +6,9 @@ window.onload = function() {
             $(".chat-config").hide()
             $(".chat").show()
         }
-    }); 
+    });
+    $("#Go-Home").click(function() {
+      $(".chat-config").show()
+      $(".chat").hide()
+    });
 }
