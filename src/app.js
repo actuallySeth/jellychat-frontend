@@ -5,7 +5,7 @@ window.onload = function() {
             room = $(".chat-room").val()
             $(".chat-config").hide()
             $(".chat").show()
-        }
+            $(this).removeClass("active");
     });
     $("#Go-Home").click(function() {
       $(".chat-config").show()
