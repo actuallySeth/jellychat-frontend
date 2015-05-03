@@ -25,6 +25,8 @@ window.onload = function() {
          method: "POST",
          url: "192.168.1.139:3000/api/chats/",
          data: { nick: nick, message: $(".chat-textarea").val(), room: room }
+       }).error(function(err) {
+         console.log(err)
        })
     });
 
