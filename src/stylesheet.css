@@ -54,3 +54,12 @@ body {
 .chat-config button{
 	margin: auto;
 }
+
+.header {
+	padding-left: 10px;
+}
+
+.room {
+	padding-left: 10px;
+	font-size: 14px;
+}

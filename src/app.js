@@ -5,10 +5,22 @@ window.onload = function() {
             room = $(".chat-room").val()
             $(".chat-config").hide()
             $(".chat").show()
+            $(".header").show()
+            $(".room").show()
+            $(".room").text("Room: " + room)
           }
     });
+
     $("#Go-Home").click(function() {
       $(".chat-config").show()
       $(".chat").hide()
+      $(".header").hide()
+      $(".room").hide()
+      $(".chat-room").val("")
+    });
+
+    $("#Send-Chat").click(function() {
+      console.log(chat-textarea);
+
     });
 }
