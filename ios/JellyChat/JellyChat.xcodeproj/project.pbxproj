@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A15396221AF6B14900B443BA /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15396211AF6B14900B443BA /* SettingsController.swift */; };
+		A15396261AF6B20600B443BA /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = A15396251AF6B20600B443BA /* gear.png */; };
+		A15396281AF6B2EC00B443BA /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = A15396271AF6B2EC00B443BA /* chat.png */; };
+		A17F71B11AF61ABA0047205F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A17F71B01AF61ABA0047205F /* main.m */; };
+		A17F71B41AF61ABA0047205F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A17F71B31AF61ABA0047205F /* AppDelegate.m */; };
+		A17F71BD1AF61ABA0047205F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17F71BB1AF61ABA0047205F /* Main.storyboard */; };
+		A17F71BF1AF61ABA0047205F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17F71BE1AF61ABA0047205F /* Images.xcassets */; };
+		A17F71C21AF61ABA0047205F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A17F71C01AF61ABA0047205F /* LaunchScreen.xib */; };
+		A17F71CE1AF61ABA0047205F /* JellyChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A17F71CD1AF61ABA0047205F /* JellyChatTests.m */; };
+		A17F71DC1AF664FA0047205F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F71DB1AF664FA0047205F /* ChatViewController.swift */; };
+		A17F71DE1AF6771B0047205F /* ChatDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F71DD1AF6771B0047205F /* ChatDetailController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A17F71C81AF61ABA0047205F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A17F71A31AF61ABA0047205F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A17F71AA1AF61ABA0047205F;
+			remoteInfo = JellyChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A15396211AF6B14900B443BA /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		A15396251AF6B20600B443BA /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		A15396271AF6B2EC00B443BA /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
+		A17F71AB1AF61ABA0047205F /* JellyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JellyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17F71AF1AF61ABA0047205F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17F71B01AF61ABA0047205F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A17F71B21AF61ABA0047205F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A17F71B31AF61ABA0047205F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A17F71BC1AF61ABA0047205F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A17F71BE1AF61ABA0047205F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A17F71C11AF61ABA0047205F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A17F71C71AF61ABA0047205F /* JellyChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JellyChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17F71CC1AF61ABA0047205F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17F71CD1AF61ABA0047205F /* JellyChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JellyChatTests.m; sourceTree = "<group>"; };
+		A17F71DB1AF664FA0047205F /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		A17F71DD1AF6771B0047205F /* ChatDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDetailController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A17F71A81AF61ABA0047205F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17F71C41AF61ABA0047205F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A17F71A21AF61ABA0047205F = {
+			isa = PBXGroup;
+			children = (
+				A17F71AD1AF61ABA0047205F /* JellyChat */,
+				A17F71CA1AF61ABA0047205F /* JellyChatTests */,
+				A17F71AC1AF61ABA0047205F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A17F71AC1AF61ABA0047205F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A17F71AB1AF61ABA0047205F /* JellyChat.app */,
+				A17F71C71AF61ABA0047205F /* JellyChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A17F71AD1AF61ABA0047205F /* JellyChat */ = {
+			isa = PBXGroup;
+			children = (
+				A17F71DB1AF664FA0047205F /* ChatViewController.swift */,
+				A17F71B21AF61ABA0047205F /* AppDelegate.h */,
+				A17F71B31AF61ABA0047205F /* AppDelegate.m */,
+				A17F71BB1AF61ABA0047205F /* Main.storyboard */,
+				A15396211AF6B14900B443BA /* SettingsController.swift */,
+				A17F71DD1AF6771B0047205F /* ChatDetailController.swift */,
+				A17F71BE1AF61ABA0047205F /* Images.xcassets */,
+				A17F71C01AF61ABA0047205F /* LaunchScreen.xib */,
+				A17F71AE1AF61ABA0047205F /* Supporting Files */,
+			);
+			path = JellyChat;
+			sourceTree = "<group>";
+		};
+		A17F71AE1AF61ABA0047205F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A15396271AF6B2EC00B443BA /* chat.png */,
+				A15396251AF6B20600B443BA /* gear.png */,
+				A17F71AF1AF61ABA0047205F /* Info.plist */,
+				A17F71B01AF61ABA0047205F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A17F71CA1AF61ABA0047205F /* JellyChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				A17F71CD1AF61ABA0047205F /* JellyChatTests.m */,
+				A17F71CB1AF61ABA0047205F /* Supporting Files */,
+			);
+			path = JellyChatTests;
+			sourceTree = "<group>";
+		};
+		A17F71CB1AF61ABA0047205F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A17F71CC1AF61ABA0047205F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A17F71AA1AF61ABA0047205F /* JellyChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17F71D11AF61ABA0047205F /* Build configuration list for PBXNativeTarget "JellyChat" */;
+			buildPhases = (
+				A17F71A71AF61ABA0047205F /* Sources */,
+				A17F71A81AF61ABA0047205F /* Frameworks */,
+				A17F71A91AF61ABA0047205F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JellyChat;
+			productName = JellyChat;
+			productReference = A17F71AB1AF61ABA0047205F /* JellyChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A17F71C61AF61ABA0047205F /* JellyChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17F71D41AF61ABA0047205F /* Build configuration list for PBXNativeTarget "JellyChatTests" */;
+			buildPhases = (
+				A17F71C31AF61ABA0047205F /* Sources */,
+				A17F71C41AF61ABA0047205F /* Frameworks */,
+				A17F71C51AF61ABA0047205F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A17F71C91AF61ABA0047205F /* PBXTargetDependency */,
+			);
+			name = JellyChatTests;
+			productName = JellyChatTests;
+			productReference = A17F71C71AF61ABA0047205F /* JellyChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A17F71A31AF61ABA0047205F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Julian Meyer";
+				TargetAttributes = {
+					A17F71AA1AF61ABA0047205F = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = FH6JBVZAPU;
+					};
+					A17F71C61AF61ABA0047205F = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = A17F71AA1AF61ABA0047205F;
+					};
+				};
+			};
+			buildConfigurationList = A17F71A61AF61ABA0047205F /* Build configuration list for PBXProject "JellyChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A17F71A21AF61ABA0047205F;
+			productRefGroup = A17F71AC1AF61ABA0047205F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A17F71AA1AF61ABA0047205F /* JellyChat */,
+				A17F71C61AF61ABA0047205F /* JellyChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A17F71A91AF61ABA0047205F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15396261AF6B20600B443BA /* gear.png in Resources */,
+				A17F71BD1AF61ABA0047205F /* Main.storyboard in Resources */,
+				A15396281AF6B2EC00B443BA /* chat.png in Resources */,
+				A17F71C21AF61ABA0047205F /* LaunchScreen.xib in Resources */,
+				A17F71BF1AF61ABA0047205F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17F71C51AF61ABA0047205F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A17F71A71AF61ABA0047205F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17F71DE1AF6771B0047205F /* ChatDetailController.swift in Sources */,
+				A15396221AF6B14900B443BA /* SettingsController.swift in Sources */,
+				A17F71B41AF61ABA0047205F /* AppDelegate.m in Sources */,
+				A17F71DC1AF664FA0047205F /* ChatViewController.swift in Sources */,
+				A17F71B11AF61ABA0047205F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17F71C31AF61ABA0047205F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17F71CE1AF61ABA0047205F /* JellyChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A17F71C91AF61ABA0047205F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A17F71AA1AF61ABA0047205F /* JellyChat */;
+			targetProxy = A17F71C81AF61ABA0047205F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A17F71BB1AF61ABA0047205F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A17F71BC1AF61ABA0047205F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A17F71C01AF61ABA0047205F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A17F71C11AF61ABA0047205F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A17F71CF1AF61ABA0047205F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A17F71D01AF61ABA0047205F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A17F71D21AF61ABA0047205F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = JellyChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A17F71D31AF61ABA0047205F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = JellyChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A17F71D51AF61ABA0047205F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JellyChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JellyChat.app/JellyChat";
+			};
+			name = Debug;
+		};
+		A17F71D61AF61ABA0047205F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JellyChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JellyChat.app/JellyChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A17F71A61AF61ABA0047205F /* Build configuration list for PBXProject "JellyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17F71CF1AF61ABA0047205F /* Debug */,
+				A17F71D01AF61ABA0047205F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17F71D11AF61ABA0047205F /* Build configuration list for PBXNativeTarget "JellyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17F71D21AF61ABA0047205F /* Debug */,
+				A17F71D31AF61ABA0047205F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17F71D41AF61ABA0047205F /* Build configuration list for PBXNativeTarget "JellyChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17F71D51AF61ABA0047205F /* Debug */,
+				A17F71D61AF61ABA0047205F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A17F71A31AF61ABA0047205F /* Project object */;
+}
