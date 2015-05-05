@@ -8,11 +8,31 @@ function submitForm(e) {
   $("#Send-Chat").click();
 }
 
-IP = "192.168.1.141"
+function getQueryParams() {
+  qs = document.location.search;
+    qs = qs.split("+").join(" ");
+
+    var params = {}, tokens,
+        re = /[?&]?([^=]+)=([^&]*)/g;
+
+    while (tokens = re.exec(qs)) {
+        params[decodeURIComponent(tokens[1])]
+            = decodeURIComponent(tokens[2]);
+    }
+
+    return params;
+}
+
+IP = "192.168.15.101"
 
 window.onload = function() {
   nick = ""
-  room = ""
+  room = getQueryParams().room
+
+  if(room) {
+    $(".chat-room").val(room)
+  }
+
     $("#Start-Chat").click(function() {
         if($(".chat-name").val() != "" && $(".chat-room").val() != "") {
             nick = $(".chat-name").val()
